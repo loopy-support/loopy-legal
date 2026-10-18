@@ -17,8 +17,7 @@ li { margin: .3em 0; }
 .portada-interior { position: relative; max-width: 1100px; margin: 0 auto; min-height: 320px;
   display: flex; align-items: flex-end; padding: 32px 56px 28px; }
 .portada-texto { position: relative; z-index: 1; }
-.portada h1 { margin: 0; line-height: 0; }
-.portada h1 img { width: 430px; max-width: 100%; height: auto; margin: 0 0 -10px -22px; }
+.portada h1 { margin: 0 0 6px -6px; font: 900 168px/0.9 ui-rounded, "SF Pro Rounded", "Nunito", system-ui, sans-serif; letter-spacing: -0.03em; color: #161616; }
 .lema { margin: 0; color: #4a4a4a; font-size: 1.05rem; }
 .formas div { position: absolute; }
 .bloque-amarillo { left: 52%; top: -24px; width: 22%; height: 280px; border-radius: 0 0 36px 36px;
@@ -38,6 +37,6 @@ li { margin: .3em 0; }
   .pastilla-negra { left: 228px; right: auto; top: 30px; width: 150px; height: 52px; }
   .pastilla-verde { left: 228px; right: auto; top: 98px; width: 100px; height: 28px; }
   .bloque-menta { display: none; }
-  .portada h1 img { width: 240px; margin-left: -12px; }
+  .portada h1 { font-size: 104px; margin-left: -3px; }
 }
 @media (max-width: 420px) { .pastilla-negra { width: 110px; } .pastilla-verde { width: 76px; } }
