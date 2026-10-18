@@ -14,21 +14,21 @@ li { margin: .3em 0; }
 
 /* Portada */
 .portada { background: #f6f6f1; color: #161616; border-bottom: 1px solid #e4e4dc; overflow: hidden; }
-.portada-interior { position: relative; max-width: 1100px; margin: 0 auto; min-height: 340px;
-  display: flex; align-items: flex-end; padding: 40px 56px; }
+.portada-interior { position: relative; max-width: 1100px; margin: 0 auto; min-height: 320px;
+  display: flex; align-items: flex-end; padding: 32px 56px 28px; }
 .portada-texto { position: relative; z-index: 1; }
 .portada h1 { margin: 0; line-height: 0; }
-.portada h1 img { width: 340px; max-width: 100%; height: auto; margin-left: -18px; }
-.lema { margin: 8px 0 0; color: #4a4a4a; font-size: 1.05rem; }
+.portada h1 img { width: 430px; max-width: 100%; height: auto; margin: 0 0 -10px -22px; }
+.lema { margin: 0; color: #4a4a4a; font-size: 1.05rem; }
 .formas div { position: absolute; }
-.bloque-amarillo { left: 52%; top: -24px; width: 300px; height: 300px; border-radius: 0 0 36px 36px;
+.bloque-amarillo { left: 52%; top: -24px; width: 22%; height: 280px; border-radius: 0 0 36px 36px;
   background: #fbe39b; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 56px; }
-.puntos { display: grid; grid-template-columns: repeat(6, 22px); gap: 16px; }
-.puntos i { width: 22px; height: 22px; border-radius: 50%; border: 2.5px solid #b49e63; }
+.puntos { display: grid; grid-template-columns: repeat(6, 20px); gap: 12px; }
+.puntos i { width: 20px; height: 20px; border-radius: 50%; border: 2.5px solid #b49e63; }
 .puntos i.si { background: #161616; border-color: #161616; }
-.pastilla-negra { right: 52px; top: 60px; width: 290px; height: 88px; border-radius: 44px; background: #161616; }
-.pastilla-verde { right: 150px; top: 172px; width: 192px; height: 44px; border-radius: 22px; background: #529e6c; }
-.bloque-menta { right: -32px; top: 172px; width: 160px; height: 250px; border-radius: 36px; background: #d3ecdc; }
+.pastilla-negra { left: 76%; right: 3%; top: 40px; height: 64px; border-radius: 32px; background: #161616; }
+.pastilla-verde { left: 76%; top: 120px; width: 12.5%; height: 34px; border-radius: 17px; background: #529e6c; }
+.bloque-menta { left: 90%; right: min(-40px, calc(50% - 50vw)); top: 120px; height: 200px; border-radius: 32px; background: #d3ecdc; }
 @media (max-width: 900px) {
   .portada-interior { flex-direction: column; align-items: flex-start; min-height: 0; padding: 0 24px 28px; }
   .formas { order: -1; position: relative; width: 100%; height: 210px; margin: 0 0 4px; }
