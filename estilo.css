@@ -41,4 +41,3 @@ li { margin: .3em 0; }
   .portada h1 img { width: 240px; margin-left: -12px; }
 }
 @media (max-width: 420px) { .pastilla-negra { width: 110px; } .pastilla-verde { width: 76px; } }
-.titular { margin-top: 0; }
