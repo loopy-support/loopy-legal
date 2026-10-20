@@ -5,9 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Loopy · Ayuda y contacto</title>
 <link rel="stylesheet" href="estilo.css">
+<script src="accesibilidad.js" defer></script>
+<link rel="alternate" hreflang="es" href="soporte.html">
+<link rel="alternate" hreflang="en" href="en/soporte.html">
 </head>
 <body>
-<main>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<div class="site-tools">
+<nav class="language-switch" aria-label="Idioma y accesibilidad">
+<span class="tools-label">Idioma</span>
+<a href="soporte.html" lang="es" hreflang="es" aria-current="page">Español</a>
+<a href="en/soporte.html" lang="en" hreflang="en">English</a>
+</nav>
+<details class="accessibility" id="accessibility" hidden>
+<summary><span aria-hidden="true">Aa</span> Accesibilidad</summary>
+<div class="accessibility-panel">
+<p class="panel-title">Preferencias de lectura</p>
+<label class="text-size-label" for="text-size">Tamaño del texto</label>
+<select id="text-size">
+<option value="100">100%</option>
+<option value="125">125%</option>
+<option value="150">150%</option>
+<option value="175">175%</option>
+<option value="200">200%</option>
+</select>
+<label class="reading-option"><input type="checkbox" id="high-contrast"><span>Alto contraste</span></label>
+<label class="reading-option"><input type="checkbox" id="underline-links"><span>Subrayar enlaces</span></label>
+<label class="reading-option"><input type="checkbox" id="reduce-motion"><span>Reducir movimiento</span></label>
+<button type="button" id="reset-preferences">Restablecer preferencias</button>
+<p class="preferences-note">Tus preferencias se guardan en este navegador cuando el almacenamiento está disponible.</p>
+<p class="visually-hidden" id="preferences-status" role="status" aria-live="polite"></p>
+</div>
+</details>
+</div>
+<main id="contenido" tabindex="-1">
 <p class="volver"><a href="index.html">Loopy</a></p>
 <h1>Ayuda y contacto</h1>
 
